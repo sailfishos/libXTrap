@@ -1,0 +1,10 @@
+--- libXTrap-1.0.0/xtrap.pc.in~	2008-12-02 08:02:47.000000000 -0500
++++ libXTrap-1.0.0/xtrap.pc.in	2008-12-02 08:02:47.000000000 -0500
+@@ -6,7 +6,6 @@ includedir=@includedir@
+ Name: XTrap
+ Description: X Trap Library
+ Version: @PACKAGE_VERSION@
+-Requires: trapproto
+ Requires.private: x11 xext xt
+ Cflags: -I${includedir}
+ Libs: -L${libdir} -lXTrap

@@ -1,0 +1,8 @@
+<package project="Mer:Trunk:Base" name="libXTrap">
+  <title>X.Org X11 libXTrap runtime library</title>
+  <description>Description: %{summary}
+
+
+</description>
+  <url>http://www.x.org/</url>
+</package>

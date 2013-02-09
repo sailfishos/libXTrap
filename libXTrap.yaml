@@ -1,6 +1,6 @@
 Name: libXTrap
 Summary: X.Org X11 libXTrap runtime library
-Version: 1.0.0
+Version: 1.0.1
 Release: 1
 Group: System/Libraries
 License: MIT
@@ -10,8 +10,11 @@ Sources:
 Patches:
     - libxtrap-pcfix.patch
 
+Description: |
+  %{summary}.
+
 PkgConfigBR:
-    - xproto
+    - xorg-macros >= 1.17
     - xextproto
     - x11
     - xext
@@ -21,4 +24,5 @@ SubPackages:
     - Name: devel
       Summary: Development components for the libXTrap library
       Group: Development/Libraries
-
+      Description: |
+        %{summary}.
